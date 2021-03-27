@@ -1,0 +1,43 @@
+.zuul-title {
+  text-align: center;
+}
+
+.zuul-definition p {
+  text-align: justify;
+}
+
+#imgValladolid {
+  height: 300px;
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#legendImgValladolid {
+  text-align: center;
+  font-size: 13px;
+  margin-block-start: 3px;
+}
+
+#imgRooms {
+  height: 300px;
+  width: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.doc {
+  background-color: lightslategray;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
