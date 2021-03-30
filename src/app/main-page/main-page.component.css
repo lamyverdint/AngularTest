@@ -1,0 +1,8 @@
+body {
+  background-image: url("../../assets/images/great-wall.jpg");
+  background-size: contain;
+}
+
+div {
+  height: 510px;
+}
