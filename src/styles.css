@@ -20,15 +20,18 @@ h1 {
 h2 {
   font-size: 200%;
   text-align: center;
+  margin-top: 2%;
 }
 
 h3 {
   font-size: 145%;
+  margin-bottom: 1%;
 }
 
 p {
   font-size: 95%;
   text-align: justify;
+  margin-top: 0;
 }
 
 a {
