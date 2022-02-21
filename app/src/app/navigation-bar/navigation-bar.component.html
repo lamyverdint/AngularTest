@@ -1,17 +1,13 @@
 <div class="navbar">
   <nav>
-    <ul>
-      <li>
-        <a href="https://markdown-editor.github.io/" target="_blank"
-          >README Online Editor</a
-        >
-      </li>
-      <li>
-        <a routerLink="/">Home</a>
-      </li>
-      <li>
-        <a routerLink="/zuul-project">Zuul project</a>
-      </li>
+    <ol>
+      <!--      <li>-->
+      <!--        <a href="https://markdown-editor.github.io/" target="_blank"-->
+      <!--          >README Online Editor</a-->
+      <!--        >-->
+      <!--      </li>-->
+      <li (click)="redirectToHomePage()">Home</li>
+      <li (click)="redirectToZuulProject()">Zuul project</li>
       <li>
         <a
           href="https://github.com/lamyverdint/AngularTest/tree/develop"
@@ -19,11 +15,11 @@
           >Angular repository</a
         >
       </li>
-      <li>
-        <a href="https://github.com/lamyverdint/Java" target="_blank"
-          >Java repository</a
-        >
-      </li>
-    </ul>
+      <!--      <li>-->
+      <!--        <a href="https://github.com/lamyverdint/Java" target="_blank"-->
+      <!--          >Java repository</a-->
+      <!--        >-->
+      <!--      </li>-->
+    </ol>
   </nav>
 </div>
