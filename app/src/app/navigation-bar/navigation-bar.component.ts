@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AppPaths } from '../models/enums/app-paths.enum';
 
 @Component({
   selector: 'app-navigation-bar',
@@ -11,11 +12,18 @@ export class NavigationBarComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  redirectToHomePage(): void {
-    this.router.navigate(['/']);
-  }
-
-  redirectToZuulProject(): void {
-    this.router.navigate(['/zuul-project']);
+  redirectTo(number: number): void {
+    let path: string;
+    switch (number) {
+      case 0:
+        path = AppPaths.HOME_PAGE;
+        break;
+      case 1:
+        path = AppPaths.ZUUL_PROJECT;
+        break;
+      case 2:
+        break;
+    }
+    this.router.navigate([path]);
   }
 }
